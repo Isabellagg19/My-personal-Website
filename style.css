@@ -27,7 +27,7 @@ main{
   padding-left:5%;
   padding-right: 5%;
   text-align:left;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 body {
@@ -60,4 +60,20 @@ li a:hover {
 @font-face {
     font-family: "love";
     src: url(fonts/Singlove.otf);
+}
+
+.subtitle {
+  font-family: "Love";
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 5%;
+  animation: bounce 2s infinite;
+  color: #D2042D;
+}
+
+@keyframes bounce {
+  0% {transform:translateY(0);}
+  25%{transform: translateY(10px);}
+  50%{transform: translateY(20px);}
+  75%{transform: translateY(10px);}
 }
