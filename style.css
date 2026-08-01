@@ -113,3 +113,25 @@ li a:hover {
   font-weight: bold;
   font-size: 25px;
 }
+
+.project-image {
+  max-width: 30%;
+  border-radius: 20px;
+}
+
+.p-projects {
+  margin-top: 3%;
+  font-family: "vogue";
+  display: block;
+  justify-content: space-around;
+}
+
+.project-link {
+  text-decoration: none;
+  display: block;
+  color:black;
+}
+
+.line{
+  display: inline;
+}
