@@ -153,7 +153,7 @@ li a:hover {
 
 .project-form {
   padding: 10px;
-  background-color: #ce4a5eda;
+  background-color: #8E1825;
   border: 2px solid black;
   border-radius: 20px;
   margin-right: 2%;
@@ -164,31 +164,35 @@ li a:hover {
 
 button.toggle-info {
   display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-family: "vogue";
+    font-size: 20px;
     font-weight: 400;
     color: #000000;
     border-radius: 933px;
     cursor: pointer;
     padding: 6px 12px;  
     text-decoration: none; 
-    background-color: #ffcc70;
-    margin-top: 5px;
+    background-color: #ffedad;
+    margin-top: 10px;
     margin-bottom: 9px;
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
+@font-face {
+  font-family: "penmanship";
+  src: url(fonts/KGPerfectPenmanship.ttf);
+}
 .info {
   display: none;
-   font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+  text-align: center;
+  background-color: #f9f8f5;
+   font-family: "penmanship", cursive;
+    font-size: 15px;
     max-width: 750px;
     margin-left: 10px;
-    background:#f0f8ff;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
     line-height: 1.8;
-    text-align: left;
     position:relative;
+    border-radius: 10px;
     border-left: 6px solid #e8cfa0;
     margin-bottom: 18px;
 }
