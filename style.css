@@ -198,3 +198,8 @@ button.toggle-info {
     border-left: 6px solid #f9f8f5;
     margin-bottom: 18px;
 }
+
+contact-body {
+  background-color: #8E1825;
+  text-align: center;
+}
