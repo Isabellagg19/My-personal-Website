@@ -199,7 +199,14 @@ button.toggle-info {
     margin-bottom: 18px;
 }
 
-contact-body {
+.contact-body {
   background-color: #8E1825;
   text-align: center;
+}
+
+.contact-title {
+  font-family: "love";
+  font-size: 60px;
+  color: #ffedad;
+  margin-top: 5%;
 }
